@@ -40,13 +40,7 @@ end)
 
 --[[
 Add to qb-core\shared\items.lua
-    latte                        = { name = "latte", label = "Latte", weight = 10, type = "item", image = "latte.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A latte to warm your soul <3" },
+    latte = { name = "latte", label = "Latte", weight = 10, type = "item", image = "latte.png", unique = false, useable = true, shouldClose = true, combinable = nil, description = "A latte to warm your soul <3" },
 
-Modify qb-smallresources\config.lua
-    drink = { -- default drink items
-        ['water_bottle'] = math.random(35, 54),
-        ['kurkakola'] = math.random(35, 54),
-        ['coffee'] = math.random(40, 50),
-        ['latte'] = math.random(50, 60),
-    },
+Add latte.png to qb-inventory\html\images
 --]]
